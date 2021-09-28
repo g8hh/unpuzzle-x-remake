@@ -459,7 +459,7 @@ function loadLevel(level) {
     }
     di("tableContainer").appendChild(row);
   }
-  di("onLevel").textContent = "Level "+level;
+  di("onLevel").textContent = "等级 "+level;
   updateLevel();
 }
 function updateLevel() {
